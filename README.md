@@ -10,7 +10,8 @@ Responsive design for various screen sizes.
 Integration of Tailwind CSS for styling and Radix-UI for functionality.
 
 ##  Technologies Used 
-``bash
+```bash
+
 Next.js
 
 TypeScript
@@ -20,7 +21,8 @@ Shadcn/UI components
 Tailwind CSS
 
 Radix-UI
-``
+
+```
 
 ## Getting Started
 
