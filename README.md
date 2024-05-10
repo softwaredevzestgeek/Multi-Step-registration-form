@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Multi-Step Registration Form
+
+This project is a multi-step registration form built using Next.js, TypeScript, Shadcn/UI components, Tailwind CSS, and Radix-UI. It aims to provide a visually appealing and user-friendly experience for users signing up for the fictional service.
+
+## Features 
+
+Multi-step form with clear progression indicators.
+Validation of user inputs.
+Responsive design for various screen sizes.
+Integration of Tailwind CSS for styling and Radix-UI for functionality.
+
+##  Technologies Used 
+``bash
+Next.js
+
+TypeScript
+
+Shadcn/UI components
+
+Tailwind CSS
+
+Radix-UI
+``
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
+git clone https://github.com/softwaredevzestgeek/Multi-Step-registration-form
+
+cd Multi-Step-registration-form
+
+npm install 
+# or 
+yarn install
+# or 
+pnpm install
+
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Start by navigating to the registration page.
+Follow the steps indicated on the form, filling in the required information at each step.
+Ensure that all fields are correctly filled and validated before proceeding to the next step.
+Once all steps are completed, submit the form to register for the service.

@@ -89,6 +89,7 @@ export default function StepperForm() {
   
   
   const onSubmit = async (data: z.infer<typeof FormSchema>, index: number) => {
+  
     switch (index) {
       case 0:
         if (!data.name || !data.email || !data.password) {
@@ -103,10 +104,15 @@ export default function StepperForm() {
         break;
       case 2:
         console.log("Step 3 form submitted successfully:", data);
-        const success = await submitFormDataToAPI(data);
+        break;
+      default:
+       
+    }
+   if(index == 3){
+    const success = await submitFormDataToAPI(data);
         if (success) {
           toast({
-            className: 'bg-lime-700',
+            className: 'bg-lime-700 text-white',
             description: "Form data submitted successfully",
           })
          
@@ -114,11 +120,7 @@ export default function StepperForm() {
           console.error('Failed to submit form data to API.');
         
         }
-        break;
-      default:
-       
-    }
-   
+   }
 
   }
 
